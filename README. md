@@ -1,1 +1,38 @@
+DEMO LINK-
 
+1️⃣ Project Title
+Smart Semantic ATS Resume Analyzer
+2️⃣ The Problem
+Traditional ATS (Applicant Tracking Systems) rely on simple keyword matching to filter resumes. This often causes qualified candidates to be rejected if they use different wording for the same skills. Recruiters also face fatigue when reviewing hundreds of resumes manually, which leads to missed talent and inefficient hiring.
+3️⃣ The Solution
+Our system uses semantic understanding instead of simple keyword matching to analyze resumes. It converts resumes into structured profiles including skills, experience, certifications, and projects. The system compares candidates with job descriptions, ranks them based on relevance, and explains why a candidate is a good match. This helps recruiters quickly identify the best candidates.
+4️⃣ Tech Stack
+Python
+FastAPI
+React (Frontend)
+PostgreSQL
+NLP / AI Models
+Resume Parsing Libraries
+5️⃣ Setup Instruction
+https://github.com/sherinjose1234567890-ops/AuraResumeNavigator/
+Navigate to the project folder
+Copy code
+
+cd project-folder
+Install dependencies
+
+
+pip install -r requirements.txt
+Run the backend server
+
+
+uvicorn main:app --reload
+Start the frontend
+
+
+npm install
+npm start
+Open the application in browser
+
+
+http://localhost:3000
